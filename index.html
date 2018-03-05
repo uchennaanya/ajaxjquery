@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>BIODATA</title>
+        <script src="jquery.min.js"></script>
+        <script src="js.js"></script>  
+    </head>
+    <body style="margin: 0px; background: powderblue;">
+        <div style="width: 40%; padding: 0% 30%;">
+           <fieldset style="width: 150px; border-radius: 5px;">
+                <legend>Personal information:</legend>
+        <form method="POST" id = "formData" enctype = "multipart/form-data" >
+            <input type="text" name="fname" placeholder="FirstName...">
+                <span id = "erfname" style="color:red;"></span><br><br>
+            <input type="text" name="sname" placeholder="SecondName...">
+                <span id = "ersname" style="color:red;"></span><br><br>
+            <input type="date" name="dob" placeholder="DD : MM : YYYY">
+                <span id = "erdob" style="color:red;"></span><br><br>
+            <input type="number" name="age" placeholder="Age...">
+                <span id = "erage" style="color:red;"></span><br><br>
+            <input type="number" name="phone" placeholder="PhoneNum...">
+                <span id = "erphone" style="color:red;"></span><br><br>
+            <input type="email" name="mail" placeholder="Email...">
+                <span id = "ermail" style="color:red;"></span><br><br>
+            <input type="text" name="address" placeholder="Address...">
+                <span id = "eraddress" style="color:red;"></span><br><br>
+            <select name="state" >
+                    <option value="abia">Abia</option>
+                    <option value="adamawa">Adamawa</option>
+                    <option value="akwa Ibom">Akwa Ibom</option> 
+                    <option value="anambara">Anambra</option> 
+                    <option value="bauchi">Bauchi</option> 
+                    <option value="bayelsa">Bayelsa</option> 
+                    <option value="benue">Benue</option> 
+                    <option value="borno">Borno</option> 
+                    <option value="cross River">Cross River</option> 
+                    <option value="delta">Delta</option> 
+                    <option value="ebonyi">Ebonyi</option> 
+                    <option value="edo">Edo</option> 
+                    <option value="ekiti">Ekiti</option> 
+                    <option value="enugu">Enugu</option> 
+                    <option value="gombe">Gombe</option> 
+                    <option value="imo">Imo</option> 
+                    <option value="jigawa">Jigawa</option> 
+                    <option value="kaduna">Kaduna</option> 
+                    <option value="kano">Kano</option> 
+                    <option value="katsina">Katsina</option> 
+                    <option value="kebbi">Kebbi</option> 
+                    <option value="kogi">Kogi</option> 
+                    <option value="kwara">Kwara</option> 
+                    <option value="lagos">Lagos</option> 
+                    <option value="nassarawa">Nassarawa</option> 
+                    <option value="niger">Niger</option> 
+                    <option value="ogun">Ogun</option> 
+                    <option value="ondo">Ondo</option> 
+                    <option value="osun">Osun</option> 
+                    <option value="oyo">Oyo</option> 
+                    <option value="plateau">Plateau</option> 
+                    <option value="rivers">Rivers</option> 
+                    <option value="sokoto">Sokoto</option> 
+                    <option value="taraba">Tabara</option> 
+                    <option value="yobe">Yobe</option>
+                    <option value="zamfara">Zamfara</option>
+            </select>
+                    <span id = "erstate" style="color:red;"></span><br><br>
+            <input type="radio" name="gender" value="male" checked> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            <input type="radio" name="gender" value="other"> Other<br>
+                <span id = "ergender" style="color:red;"></span><br>
+            <input type="text" name="guidian" placeholder="Guidian'sName...">
+                <span id = "erguidian" style="color:red;"></span><br><br>
+            <input type="file" name="image"><br>
+                <span id = "erimg" style="color:red;"></span><br>
+            <button type="submit" name "submit">Send</button>
+                <span id = "valid" style="color: green;"></span>
+        </form>
+            </fieldset>
+            </div>
+    </body>
+</html>
